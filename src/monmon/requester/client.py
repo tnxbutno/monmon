@@ -32,7 +32,7 @@ class HttpClient:
         }
         start = time.time_ns()
         try:
-            async with self.session.get(url, ssl=False) as response:
+            async with self.session.get(url) as response:
                 result["site_id"] = site_id
                 result["status_code"] = response.status
                 result["timestamp"] = datetime.now().isoformat()

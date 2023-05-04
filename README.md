@@ -3,7 +3,7 @@ Our service is designed to monitor website availability and keep track of import
 We check if a website is returning a code 200 then, we also verify if the requested page matches a specified regex pattern.
 Users have the option to customize the interval and regex pattern for each check. 
 Personalization options include setting the check interval to anywhere between 5 and 300 seconds, as well as specifying the regex pattern that must match content on the page.
----
+
 I created this project while working on a homework assignment. 
 I didn't want to discard it because completing it took a lot of time and effort. Although it's not my best work, 
 I enjoyed writing it because I hadn't used Python async ecosystem before and hadn't written big projects in Python for more than four years. If you're interested, feel free to submit a pull request.
